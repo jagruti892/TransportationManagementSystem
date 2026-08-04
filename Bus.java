@@ -1,6 +1,8 @@
+// inheritance 
+// bus class inherits proprties like vehicleid vehicleNumber and capacity from vehicle class
 public class Bus extends Vehicle {
-
-    private boolean chargingPort;
+// bus class has its own property as a charging port
+    private final boolean chargingPort;
 
     public Bus(int vehicleId, String vehicleNumber, int capacity, boolean chargingPort) {
 

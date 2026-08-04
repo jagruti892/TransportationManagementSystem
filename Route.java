@@ -1,13 +1,11 @@
 public class Route {
-
     private int routeId;
     private String source;
     private String destination;
     private double distance;
     private String estimatedTime;
 
-    public Route(int routeId, String source, String destination,
-                double distance, String estimatedTime) {
+    public Route(int routeId, String source, String destination,double distance, String estimatedTime) {
 
         this.routeId = routeId;
         this.source = source;
@@ -15,7 +13,7 @@ public class Route {
         this.distance = distance;
         this.estimatedTime = estimatedTime;
     }
-
+// displays route details including id source destination distance and estimated time
     public void displayRouteDetails() {
 
         System.out.println("\n----------- Route Details -----------");

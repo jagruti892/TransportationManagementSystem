@@ -1,5 +1,7 @@
+// inheritance 
+// taxi class inherits proprties like vehicleid vehicleNumber and capacity from vehicle class 
 public class Taxi extends Vehicle {
-
+// taxi class has its own property as a drivername
     private String driverName;
 
     public Taxi(int vehicleId, String vehicleNumber, int capacity, String driverName) {

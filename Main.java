@@ -1,3 +1,9 @@
+/* 
+Author : Jagruti Gadekar
+Roll No : 2621
+Description : Main class where it creates objects of all classes and displays the details
+*/
+
 public class Main {
 
     public static void main(String[] args) {
@@ -7,9 +13,8 @@ public class Main {
         Admin admin = new Admin(101,"Admin","admin123");
         Driver driver = new Driver(201,"Rahul","9876501234","GA12345678", 5,"Available");
         Route route = new Route(301,"Panaji","Margao",35, "45 Minutes");
-        Booking booking = new Booking(401,"02-08-2026", 15,"Confirmed");
+        Booking booking = new Booking(401,"02-08-2026","Jagruti", 15,"Confirmed");
 
-// Abstraction and Object Referencing
         Vehicle vehicle;
         vehicle = new Bus(501,"GA07AB1234",50,true);
 

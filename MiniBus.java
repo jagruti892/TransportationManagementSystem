@@ -1,5 +1,7 @@
+// inheritance 
+// minbus class inherits proprties like vehicleid vehicleNumber and capacity from vehicle class
 public class MiniBus extends Vehicle {
-
+// minbus class has its own property as a ac
     private boolean ac;
 
     public MiniBus(int vehicleId, String vehicleNumber, int capacity, boolean ac) {

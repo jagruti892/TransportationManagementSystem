@@ -1,4 +1,7 @@
+// inheritance 
+// bike class inherits proprties like vehicleid vehicleNumber and capacity from vehicle class
 public class Bike extends Vehicle {
+// bike class has its own property as a helmetAvailable
 
     private boolean helmetAvailable;
 
