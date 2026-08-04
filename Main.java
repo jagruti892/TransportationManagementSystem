@@ -1,7 +1,8 @@
 /* 
 Author : Jagruti Gadekar
 Roll No : 2621
-Description : Main class where it creates objects of all classes and displays the details
+Description : Transportation Management System that stores and displays information about users, vehicles, drivers, routes, and bookings using OOP concepts such as classes, objects, encapsulation, inheritance, 
+            abstraction, polymorphism, constructors, and object referencing.
 */
 
 public class Main {
