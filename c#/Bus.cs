@@ -5,7 +5,7 @@
 public class Bus : Vehicle
 {
     // Bus class has its own property as a charging port
-    private readonly bool chargingPort;
+    private  bool chargingPort;
 
     public Bus(int vehicleId, string vehicleNumber, int capacity, bool chargingPort)
     // : means Bus inherits from Vehicle
