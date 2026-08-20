@@ -8,6 +8,7 @@ public class Bus : Vehicle
     private readonly bool chargingPort;
 
     public Bus(int vehicleId, string vehicleNumber, int capacity, bool chargingPort)
+    // : means Bus inherits from Vehicle
         : base(vehicleId, vehicleNumber, capacity)
     {
         this.chargingPort = chargingPort;
