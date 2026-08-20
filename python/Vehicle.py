@@ -4,7 +4,8 @@ from abc import ABC, abstractmethod
 
 
 class Vehicle(ABC):
-# allows us to create an Abstract Base Class.
+#ABC → allows us to create an Abstract Base Class.
+#abstractmethod → marks a method as abstract.
     def __init__(self, vehicleId, vehicleNumber, capacity):
         self.vehicleId = vehicleId
         self.vehicleNumber = vehicleNumber
