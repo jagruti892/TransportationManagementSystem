@@ -2,6 +2,7 @@
 public class Booking
 {
     // Private variables
+    // These variables can be accessed directly only inside the Booking class.
     private int bookingId;
     private string bookingDate;
     private string bookedBy;
