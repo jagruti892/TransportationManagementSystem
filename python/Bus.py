@@ -4,13 +4,14 @@
 
 from Vehicle import Vehicle
 
-
-class Bus(Vehicle):
+#Bus is a child class of Vehicle
+class Bus(Vehicle):   
 
     # Bus class has its own property as a charging port
     def __init__(self, vehicleId, vehicleNumber, capacity, chargingPort):
+        #super() refers to the parent class.
         super().__init__(vehicleId, vehicleNumber, capacity)
-        self.__chargingPort = chargingPort
+        self.__chargingPort = chargingPort  #bus has its own property
 
     # Method overriding
     def displayVehicleDetails(self):
